@@ -1,127 +1,108 @@
 # CodeAlpha_Task
-Overview
-This is a sleek, modern calculator with advanced features beyond basic arithmetic operations. It includes a dark theme with vibrant accents, calculation history tracking, theme switching, and full keyboard support.
+# Modern Calculator
 
-Key Features
-Basic Operations: +, -, ×, ÷, percentage
+A sleek, modern calculator with advanced features beyond basic arithmetic operations. Built with HTML, CSS, and JavaScript, this calculator offers a beautiful dark theme with vibrant accents, calculation history tracking, theme switching, and full keyboard support.
 
-Advanced Functions: Backspace, clear, decimal support
+![Calculator Preview](https://via.placeholder.com/400x600/1a2a6c/ffffff?text=Modern+Calculator)
 
-History Panel: Track previous calculations
+## Features
 
-Theme Switching: Toggle between dark and light modes
+### 🧮 Core Functionality
+- **Basic Operations**: Addition, subtraction, multiplication, division
+- **Advanced Functions**: Percentage calculations, decimal support
+- **Memory Functions**: Backspace, clear, and full calculation history
 
-Responsive Design: Works on all device sizes
+### 🎨 Design Features
+- **Modern Dark Theme**: Sleek glass-morphism UI with vibrant accents
+- **Theme Switching**: Toggle between dark and light modes
+- **Responsive Design**: Works perfectly on all device sizes
+- **Visual Feedback**: Interactive animations and hover effects
+- **Ripple Effect**: Visual feedback on button presses
 
-Keyboard Support: Full keyboard accessibility
+### ⌨️ Enhanced Usability
+- **Full Keyboard Support**: Use your keyboard for all operations
+- **Calculation History**: Slide-out panel to review previous calculations
+- **Dual Display**: Shows both current input and ongoing operation
 
-Visual Feedback: Interactive animations and hover effects
+## Getting Started
 
-Technical Implementation
-HTML Structure
-Main calculator container with macOS-style window controls
+### Prerequisites
+No special requirements - just a modern web browser!
 
-Dual display system (input and result)
+### Installation
+1. Clone or download this repository
+2. Open `index.html` in your web browser
+3. Start calculating!
 
-Grid-based button layout
+### Usage
+- **Click numbers** or use keyboard to input values
+- **Select an operation** (+, -, ×, ÷, %)
+- **Press = or Enter** to calculate
+- **Use C to clear** or backspace to correct
+- **Toggle history** with the clock icon (or press 'H')
+- **Switch themes** with the moon/sun icon
 
-Slide-out history panel
+### Keyboard Shortcuts
+| Key | Function |
+|-----|----------|
+| 0-9 | Number input |
+| . | Decimal point |
+| +, -, *, / | Basic operations |
+| % | Percentage |
+| Enter or = | Calculate |
+| Escape | Clear |
+| Backspace | Remove last digit |
+| H | Toggle history panel |
+| C | Clear calculator |
 
-CSS Design
-Dark glass-morphism UI with vibrant accents
+## Technical Implementation
 
-Responsive layout using flexbox and grid
+### HTML Structure
+- Main calculator container with macOS-style window controls
+- Dual display system (input and result)
+- Grid-based button layout
+- Slide-out history panel
 
-Smooth transitions and animations
+### CSS Design
+- Dark glass-morphism UI with vibrant accents
+- Responsive layout using flexbox and grid
+- Smooth transitions and animations
+- Circular button ripple effects
+- Theme switching with CSS variables
+- Mobile-optimized design
 
-Circular button ripple effects
+### JavaScript Functionality
+- Calculator state management
+- Arithmetic operations with floating point precision
+- History tracking and management
+- Keyboard event handling
+- Theme switching logic
 
-Theme switching with CSS variables
+## Browser Compatibility
+This calculator works on all modern browsers including:
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge
 
-Mobile-optimized design
-
-JavaScript Functionality
-javascript
-// Calculator state management
-let currentInput = '0';
-let previousInput = '';
-let operation = null;
-let resetScreen = false;
-let calculationHistory = [];
-
-// Core functions
-function appendNumber(number) { /* Handles digit input */ }
-function setOperation(op) { /* Sets current operation */ }
-function calculate() { /* Performs calculation */ }
-function clear() { /* Resets calculator */ }
-function backspace() { /* Removes last digit */ }
-
-// Additional features
-function updateDisplay() { /* Updates UI */ }
-function updateHistory() { /* Manages history panel */ }
-function handleKeyboardInput() { /* Keyboard support */ }
-Advanced Features
-Calculation History
-
-Stores expressions and results
-
-Accessible via slide-out panel
-
-Clear history functionality
-
-Theme Switching
-
-Toggle between dark and light modes
-
-Dynamic background gradient change
-
-Icon updates (sun/moon)
-
-Keyboard Support
-
-Number keys (0-9)
-
-Operators (+, -, *, /, %)
-
-Enter (=), Escape (clear), Backspace
-
-Shortcuts (h for history, c for clear)
-
-How to Use
-Click numbers or use keyboard to input values
-
-Select an operation (+, -, ×, ÷, %)
-
-Press = or Enter to calculate
-
-Use C to clear or backspace to correct
-
-Toggle history with the clock icon
-
-Switch themes with the moon/sun icon
-
-Technical Highlights
-Ripple Effect Animation: Visual feedback on button press
-
-Dual Display: Shows current input and ongoing operation
-
-Floating Point Precision: Avoids common decimal errors
-
-Error Handling: Prevents division by zero
-
-Responsive Design: Adapts to mobile and desktop
-
-Performance Optimized: Minimal re-renders
-
-File Structure
-text
+## File Structure
+```
 calculator/
 ├── index.html          # Main HTML file
-├── style.css           # Stylesheet
-└── script.js           # JavaScript functionality
-Dependencies
-Font Awesome 6.4.0 (for icons)
+├── README.md           # Project documentation
+└── (No external dependencies)
+```
 
-This calculator combines aesthetic design with robust functionality, making it both visually appealing and highly practical for everyday calculations.
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
 
+## License
+This project is open source and available under the [MIT License](LICENSE).
+
+## Acknowledgments
+- Icons provided by [Font Awesome](https://fontawesome.com)
+- Color inspiration from modern UI design trends
+- Gradient backgrounds for visual appeal
+
+---
 
